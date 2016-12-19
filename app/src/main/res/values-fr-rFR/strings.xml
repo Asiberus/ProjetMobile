@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ProjetMobile</string>
+    <string name="button_text">Clique</string>
+    <string name="button_Intent">Lancer Activité</string>
+    <string name="text">Bonjour le monde !</string>
+    <string name="action_settings">Paramètres</string>
+
+
+</resources>

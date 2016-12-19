@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ProjetMobile</string>
+    <string name="button_text">Changer la date</string>
+    <string name="button_Intent">Liste de bières</string>
+    <string name="text">Bienvenue!</string>
+    <string name="text_rv_biere">texte de biere</string>
+
+
+</resources>

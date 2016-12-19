@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/text"
+        android:gravity="center"
+        android:id="@+id/tv_hello_world"/>
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView"
+        android:text="@string/button_text"
+        android:id="@+id/btn_hello_world"/>
+
+    <Button
+        android:text="@string/button_Intent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_intent"
+        android:layout_alignBaseline="@+id/btn_hello_world"
+        android:layout_alignBottom="@+id/btn_hello_world"
+        android:layout_centerHorizontal="true" />
+
+
+</LinearLayout>
+
